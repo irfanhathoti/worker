@@ -29,7 +29,7 @@ body
 {
     border: 1px solid red;
     box-shadow: 3px 3px 4px rgba(255, 0, 0, 0.801);
-    height: 400px;
+    height: 550px;
     width: 350px;
     border-radius: 10px;
     margin: 100px 10px 10px 450px;
@@ -59,7 +59,7 @@ color: red;
 text-decoration: underline red; 
 font-weight: bold;
 text-align: center;
-margin: -10px 10px 10px 10px;
+margin: 20px 10px 10px 10px;
 }
 .day
 {
@@ -74,6 +74,14 @@ margin: -10px 10px 10px 10px;
     border-radius: 15px;
     padding: 5px;
     
+}
+.div
+{
+    margin: 5px 10px 10px 10px ;
+}
+.btn
+{
+    margin-left: 150px;
 }
 
 

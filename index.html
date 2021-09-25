@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ATTENDENCE</title>
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -13,14 +13,22 @@
     <div class="fix">Note: 90%  Will be Attendence Compulsory</div>
        <p class="msg">( Iska matlab ap rooz kaam ku ana jaroori he Kuch family ka kaam hotu leave milega )</p>
        <div class="parent">
-           <div class="head1">ATTENDENCE LIST</div>
+           <div class="head1">RESISTER HERE</div>
            <div class="text">Note:if you preasent than Only you tick the mark Other wise dont tick</div>
-        <div>
-            <form action="">
+       <div class="div">
+            <form action="./text.html">
+                <label for="text">Name</label>
+                <input required placeholder="Enter your Name" type="text" name="Name" id="name">
+                <br>
+                <br>
+                <label for="number">Number</label>
+                <input required placeholder="Enter yout number" type="number" name="Number" id="number">
+                <br>
+                <br>
             <input type="checkbox" name="Monday" id="Monday">
-            <label class="day" for="text">Monday</label>
-           &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="Monday" id="part time">
-            <label class="part" for="text">Part Time</label>
+            <label class="day" for="id">Monday</label>
+           &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="Monday" id="Part Time">
+            <label class="part" for="Part time">Part Time</label>
             <input type="radio" name="Monday" id="Full Time">
             <label class="part" for="text">Full Time</label>
             <br>
@@ -60,11 +68,15 @@
             <label class="part" for="text">Part Time</label>
             <input  type="radio" name="Saturday" id="Full Time">
             <label class="part" for="text">Full Time</label>
-
+            <br><br>
+            <br>
+            <label for="text">If any mistake then Reset here</label> 
+            <button class="btn">Reset</button>
+            <p>Click here to Submitt</p>
+            <button class="btn">Submitt</button>
         </form>
         </div>
-
-       </div>
+        </div>
     
 </body>
 </html>
