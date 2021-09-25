@@ -1,0 +1,80 @@
+body
+{
+    background-color: seashell;
+}
+.head
+{
+    font-style: italic;
+    color: maroon;
+    font-size: xx-large;
+    text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.507);
+    text-align: center;
+    font-weight: bolder;
+}
+.fix
+{
+    color: red;
+    font-style: oblique;
+    font-weight: bold;
+}
+.msg
+{
+    text-decoration: black underline;
+    letter-spacing: 5px;
+}
+
+
+
+.parent
+{
+    border: 1px solid red;
+    box-shadow: 3px 3px 4px rgba(255, 0, 0, 0.801);
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 100px 10px 10px 450px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+} 
+.head1
+{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    color: tomato;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.513);
+    padding: 10px;
+    height: 30px;
+    width: 370px;
+    text-align: center;
+   
+}
+
+
+.text
+{
+color: red;   
+text-decoration: underline red; 
+font-weight: bold;
+text-align: center;
+margin: -10px 10px 10px 10px;
+}
+.day
+{
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 15px;
+   
+}
+.part
+{
+    border: 1px red solid;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+
+
